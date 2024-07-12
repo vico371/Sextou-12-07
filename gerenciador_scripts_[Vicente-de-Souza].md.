@@ -1,0 +1,23 @@
+# Gerenciador de scripts e automação
+
+Este projeto é um script abrangente baseado na web e gerenciador de automação, desenvolvido em Python usando a estrutura Flask. Ele permite registrar, gerenciar e executar scripts em diversas linguagens, como Python, Shell Script e PHP, tanto manualmente quanto em intervalos regulares usando a biblioteca croniter.
+
+## Características
+
+- Cadastro de script com diversas informações, como nome, pasta, URL do repositório GitHub, idioma, linha de comando, parâmetros e arquivo de log.
+- Clonar o repositório GitHub do script para a pasta de scripts do gerenciador.
+- Execução manual ou automática de scripts, com opção de visualização de logs em tempo real.
+- Agendamento de scripts para serem executados em intervalos regulares usando a biblioteca croniter.
+- Controle de acesso ao sistema através de login e senha, com opção de cadastro de novos usuários.
+- Interface web amigável e responsiva, desenvolvida com Bootstrap.
+
+## Instalação
+
+1. Clone o repositório em seu computador:
+
+ ```bash
+ clone do git https://github.com/tmdstudio/gerenciador-scripts.git
+ ```
+
+2. Navegue até a pasta do projeto e instale as dependências: 
+depios de antes dewsfdhe
