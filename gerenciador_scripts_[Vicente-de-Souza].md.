@@ -1,18 +1,18 @@
-#Scripts and Automations Manager
+# Scripts and Automations Manager
 
 This project is a complete web script and automation manager, developed in Python and using the Flask framework. It allows you to register, manage and run scripts in different languages like Python, Shell Script and PHP both manually and at regular intervals using the library chronicler. 
 
-#Functionalities:
+# Functionalities:
 
 Registration of scripts with various information, such as name, folder, GitHub repository URL, language, command line, parameters and log file. Cloning from the script's GitHub repository to the manager's scripts folder. Manual or automatic execution of scripts, with the option to view logs in real time.
 Scheduling scripts to run at regular intervals using the croniter library. System access control through login and password, with option to register new users. Friendly and responsive web interface, developed with Bootstrap.
 
-##Installation:
+## Installation:
 
 Clone the repository to your computer: `git clone https://github.com/tmdstudio/gerenciador-scripts.git`  Go to the project folder and install the dependencies: `pip install -r requirements.txt`
 Create a .env configuration file in the project folder and configure the environment variables:
 
-```shell
+``` shell
 #URL da base de dados
 SQLALCHEMY_DATABASE_URI = sqlite:///gerenciador.db
 #Chave secreta para autenticação
@@ -21,18 +21,18 @@ SECRET_KEY = sua-chave-secreta
 SERVER_NAME = localhost:5500
 ```
 
-##Start the server:
-```gunicorn -w 4 -b 0.0.0.0:5500 main:app````  Access the system in your web browser:
-```http://localhost: 5500```
+## Start the server:
+``` gunicorn -w 4 -b 0.0.0.0:5500 main:app ```  Access the system in your web browser:
+``` http://localhost: 5500 ```
 
-#Use:
+# Use:
  
   *	Script registration: Access the registration page and fill out the form with the script information. *	Script management: The scripts page lists all registered scripts, with options to view, edit, activate, deactivate, delete and update.
   *	Executing scripts: Click the "Run" button to manually execute a script.
   *	Script scheduling: Access the crontab page to schedule scripts to run at regular intervals.
   *	Access control: Access the login page to enter the system.
 
-#Contribution:
+# Contribution:
 
 The project code is available on GitHub: [[URL removed]]([URL removed]).
 To contribute to the project, you can:
@@ -41,7 +41,7 @@ To contribute to the project, you can:
  *	Deploy your changes and submit a pull request to the main repository.
  *	Open issues to report bugs or suggest new features.
 
-#Authors:
+# Authors:
 
 [Gabriel Barros](https://github.com/gdbarros94)
 
@@ -49,7 +49,7 @@ To contribute to the project, you can:
 
 [TMDStudio](https://tmdstudio.com.br)
 
-#Comments:
+# Comments:
 
 This project is in constant development and new features will be added in the future. If you encounter any problems or have any questions.
 Please open an issue on GitHub. We appreciate your collaboration!
